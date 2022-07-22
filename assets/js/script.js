@@ -107,16 +107,5 @@ playlistContainer.addEventListener("click", function(event) {
     const elementoHTML = event.target
     if (elementoHTML.tagName == "BUTTON") {
         elementoHTML.closest("li").remove()
-        
-        //capturar o id do button em uma variável
-        //vão usar o find para encontrar a temporada que tem o mesmo id do button
-        //depois usar o indexOf para encontrar o índice daquela temporada no array temporadasSelecionadas
-        //remover a temporada com o splice
-
-        // doc find: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find
-
-        //doc indexOf: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-
-        //doc do splice: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
     }
 })

@@ -112,7 +112,7 @@ main {
 .main_card {
   width: 90%;
   height: 330px;
-  background-image: url("assets/img/imagemCard.png");
+  background-image: url("/maratona-invertida-kenzie/assets/img/imagemCard.png");
   background-size: cover;
 }
 
@@ -238,7 +238,7 @@ main {
   width: 30px;
   margin-top: 10px;
   background-color: transparent;
-  background-image: url(/assets/img/trash-icon.png);
+  background-image: url(/maratona-invertida-kenzie/assets/img/trash-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
